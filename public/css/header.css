@@ -1,0 +1,99 @@
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+header {
+    
+    background-color: #EAC926;
+}
+
+.header-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.site {
+    display: none;
+}
+
+.login {
+    display: none;
+}
+
+h1.titulo-seccion {
+    font-size: 24px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+nav {
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+
+nav ul {
+    padding: 0;
+    /* text-decoration: none; */
+    /* display: flex; */
+    
+    
+}
+
+.banner {
+    display: block;
+    width: 100%;
+}
+
+.header-div h4 {
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+
+#logo {
+    width: 50%;
+    padding: 15px;
+    /* padding-left: 40px;
+    padding-top: 25px; */
+        
+}
+
+
+.barra-busqueda {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+
+.burger-menu {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    
+}
+
+#burger {
+    
+    padding: 5px;
+    background-color: #1259c3;
+    border: 1px solid #1259c3;
+    border-radius: 5px;
+}
+
+

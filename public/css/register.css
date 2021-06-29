@@ -1,0 +1,143 @@
+
+body {
+    background-color: #ebebeb;
+}
+
+form {
+    background-color: #ebebeb;
+    padding: 20px;
+    
+    
+}
+
+.formulario {
+    margin: 50px 0px;
+}
+
+.formulario-partes {
+    display: block;
+    margin-bottom: 15px;
+    width: 70%;
+    
+}
+
+.perfil-del-usuario {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 350px;
+}
+
+.perfil-usuario-titulo {
+    width: 99%;
+    margin-bottom: 10px;
+}
+
+/* .perfil-del-usuario .perfil-usuario-titulo {
+    display: block;
+    margin-bottom: 10px; 
+} */
+
+.categorias-de-interes {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.categorias-de-interes .titulo {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.categorias-de-interes .categorias {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.foto-de-usuario {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #1259c3;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.formulario-login {
+    padding: 30px;
+    
+    
+}
+
+.formulario-login label {
+    display: block;
+    margin-bottom: 15px;
+    
+}
+
+.formulario-login input {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.formulario-login button {
+    background-color: #1259c3;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0,5s;
+}
+
+.formulario-login button:hover {
+    background-color: #0022AA;
+}
+
+.formulario-login button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+input {
+    max-width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type=radio] {
+    margin-left: 10px;
+}
+
+.titulo-foto {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#input-foto {
+    max-width: 700px;
+    border-radius: 0px;
+}
+
+.section-login {
+    margin: 50px 0px;
+    
+}
+
+/* .formulario {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/* input:invalid {
+    border: 2px solid red;
+  } */
+  
+/* input:valid {
+    border: 2px solid black;
+  } */
+  
