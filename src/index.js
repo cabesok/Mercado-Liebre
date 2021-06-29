@@ -2,7 +2,9 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
-app.listen(3000, () => console.log("Servidor 3000 corriendo", "http://localhost:3000"));
+app.set("port",process.env.PORT || 3000);
+
+app.listen(app.get("port"),() => console.log("Server Start http://localhost:"+app.get("port")));
 
 app.use(express.static(path.resolve(__dirname, "../public")));
 
